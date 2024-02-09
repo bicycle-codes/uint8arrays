@@ -13,8 +13,7 @@
     "url": "https://github.com/achingbrain/uint8arrays/issues"
   },
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "public"
   },
   "type": "module",
   "types": "./dist/src/index.d.ts",
@@ -178,7 +177,8 @@
     "release": "aegir release",
     "build": "aegir build",
     "dep-check": "aegir dep-check",
-    "docs": "aegir docs"
+    "docs": "aegir docs",
+    "postversion": "git push --follow-tags && npm publish"
   },
   "dependencies": {
     "@bicycle-codes/multiformats": "^13.0.1"
