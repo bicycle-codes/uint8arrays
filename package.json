@@ -1,6 +1,6 @@
 {
-  "name": "uint8arrays",
-  "version": "5.0.2",
+  "name": "@bicycle-codes/uint8arrays",
+  "version": "5.0.6",
   "description": "Utility functions to make dealing with Uint8Arrays easier",
   "author": "Alex Potsides <alex@achingbrain.net>",
   "license": "Apache-2.0 OR MIT",
@@ -181,7 +181,7 @@
     "docs": "aegir docs"
   },
   "dependencies": {
-    "multiformats": "^13.0.0"
+    "@bicycle-codes/multiformats": "^13.0.1"
   },
   "devDependencies": {
     "@types/benchmark": "^2.1.1",
