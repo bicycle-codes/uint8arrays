@@ -178,7 +178,8 @@
     "build": "aegir build",
     "dep-check": "aegir dep-check",
     "docs": "aegir docs",
-    "postversion": "git push --follow-tags && npm publish"
+    "postversion": "git push --follow-tags && npm publish",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "@bicycle-codes/multiformats": "^13.0.1"
